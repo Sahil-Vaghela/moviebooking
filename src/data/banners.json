@@ -1,0 +1,44 @@
+[
+  {
+    "id": "banner-monsoon-dossier",
+    "movieId": "mov-monsoon-dossier",
+    "eyebrow": "Now Showing in IMAX 2D & Dolby Atmos",
+    "headline": "The Monsoon Dossier",
+    "subheadline": "One blacked-out railway line, twelve hours of rain across South Mumbai, and a retired archivist holding the city's last encrypted ledger.",
+    "ctaLabel": "Book Showtimes",
+    "imageUrl": "/src/assets/images/hero_monsoon_noir_1795091589667.jpg",
+    "cityIds": [
+      "city-mumbai",
+      "city-delhi-ncr",
+      "city-bengaluru",
+      "city-hyderabad",
+      "city-chennai",
+      "city-kolkata",
+      "city-pune",
+      "city-ahmedabad",
+      "city-jaipur",
+      "city-kochi"
+    ]
+  },
+  {
+    "id": "banner-deccan-chronicle",
+    "movieId": "mov-bastion-of-ochre",
+    "eyebrow": "70mm Large-Format Presentation",
+    "headline": "Bastion of Ochre",
+    "subheadline": "Set across the sixteenth-century Deccan plateau, a royal cartographer races the solstice to redraw an empire's contested border.",
+    "ctaLabel": "Explore Showtimes",
+    "imageUrl": "/src/assets/images/hero_deccan_epic_1795091602952.jpg",
+    "cityIds": [
+      "city-mumbai",
+      "city-delhi-ncr",
+      "city-bengaluru",
+      "city-hyderabad",
+      "city-chennai",
+      "city-kolkata",
+      "city-pune",
+      "city-ahmedabad",
+      "city-jaipur",
+      "city-kochi"
+    ]
+  }
+]

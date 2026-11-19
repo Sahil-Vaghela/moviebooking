@@ -1,0 +1,102 @@
+[
+  {
+    "id": "city-mumbai",
+    "name": "Mumbai",
+    "state": "Maharashtra",
+    "code": "BOM",
+    "region": "West",
+    "tagline": "Art-deco heritage halls & IMAX flagships",
+    "theatreCountLabel": "2 flagship venues",
+    "featured": true
+  },
+  {
+    "id": "city-delhi-ncr",
+    "name": "Delhi NCR",
+    "state": "Delhi",
+    "code": "DEL",
+    "region": "North",
+    "tagline": "Director's Cut lounges across Delhi & Gurugram",
+    "theatreCountLabel": "2 flagship venues",
+    "featured": true
+  },
+  {
+    "id": "city-bengaluru",
+    "name": "Bengaluru",
+    "state": "Karnataka",
+    "code": "BLR",
+    "region": "South",
+    "tagline": "Laser IMAX & multi-language premieres",
+    "theatreCountLabel": "2 flagship venues",
+    "featured": true
+  },
+  {
+    "id": "city-hyderabad",
+    "name": "Hyderabad",
+    "state": "Telangana",
+    "code": "HYD",
+    "region": "South",
+    "tagline": "Large-format screens & Dolby Atmos halls",
+    "theatreCountLabel": "2 flagship venues",
+    "featured": true
+  },
+  {
+    "id": "city-chennai",
+    "name": "Chennai",
+    "state": "Tamil Nadu",
+    "code": "MAA",
+    "region": "South",
+    "tagline": "Iconic single-screens & contemporary multiplexes",
+    "theatreCountLabel": "2 flagship venues",
+    "featured": true
+  },
+  {
+    "id": "city-kolkata",
+    "name": "Kolkata",
+    "state": "West Bengal",
+    "code": "CCU",
+    "region": "East",
+    "tagline": "Auteur screenings & curated multiplexes",
+    "theatreCountLabel": "2 flagship venues",
+    "featured": true
+  },
+  {
+    "id": "city-pune",
+    "name": "Pune",
+    "state": "Maharashtra",
+    "code": "PNQ",
+    "region": "West",
+    "tagline": "Marathi, Hindi & international cinema hubs",
+    "theatreCountLabel": "2 flagship venues",
+    "featured": false
+  },
+  {
+    "id": "city-ahmedabad",
+    "name": "Ahmedabad",
+    "state": "Gujarat",
+    "code": "AMD",
+    "region": "West",
+    "tagline": "SG Highway multiplexes & family auditoriums",
+    "theatreCountLabel": "2 flagship venues",
+    "featured": false
+  },
+  {
+    "id": "city-jaipur",
+    "name": "Jaipur",
+    "state": "Rajasthan",
+    "code": "JAI",
+    "region": "North",
+    "tagline": "Grand heritage palaces & modern screens",
+    "theatreCountLabel": "2 flagship venues",
+    "featured": false
+  },
+  {
+    "id": "city-kochi",
+    "name": "Kochi",
+    "state": "Kerala",
+    "code": "COK",
+    "region": "South",
+    "tagline": "Acclaimed Malayalam cinema & Atmos projection",
+    "theatreCountLabel": "2 flagship venues",
+    "featured": false
+  }
+]

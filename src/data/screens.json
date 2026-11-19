@@ -1,0 +1,296 @@
+[
+  {
+    "id": "scr-mum-pal-1",
+    "theatreId": "th-mum-palladium",
+    "name": "Audi 1 · IMAX Laser",
+    "soundSystem": "IMAX 12-Channel",
+    "projection": "Dual 4K Laser",
+    "supportedFormats": ["IMAX 2D", "Dolby Atmos", "2D"],
+    "totalSeats": 96,
+    "tiers": [
+      { "tier": "PLATINUM", "label": "Platinum Recliner", "rows": ["A", "B"], "seatsPerRow": 10, "aisleAfterColumns": [5], "basePriceInr": 620 },
+      { "tier": "GOLD", "label": "Gold Prime", "rows": ["C", "D", "E", "F"], "seatsPerRow": 12, "aisleAfterColumns": [3, 9], "basePriceInr": 420 },
+      { "tier": "SILVER", "label": "Silver Classic", "rows": ["G", "H", "J"], "seatsPerRow": 10, "aisleAfterColumns": [5], "basePriceInr": 290 }
+    ]
+  },
+  {
+    "id": "scr-mum-pal-2",
+    "theatreId": "th-mum-palladium",
+    "name": "Audi 2 · Dolby Atmos",
+    "soundSystem": "Dolby Atmos 64ch",
+    "projection": "4K RGB Laser",
+    "supportedFormats": ["Dolby Atmos", "4DX", "3D", "2D"],
+    "totalSeats": 84,
+    "tiers": [
+      { "tier": "PLATINUM", "label": "Platinum Lounge", "rows": ["A", "B"], "seatsPerRow": 10, "aisleAfterColumns": [5], "basePriceInr": 540 },
+      { "tier": "GOLD", "label": "Gold Executive", "rows": ["C", "D", "E"], "seatsPerRow": 12, "aisleAfterColumns": [3, 9], "basePriceInr": 360 },
+      { "tier": "SILVER", "label": "Silver Classic", "rows": ["F", "G", "H"], "seatsPerRow": 10, "aisleAfterColumns": [5], "basePriceInr": 250 }
+    ]
+  },
+  {
+    "id": "scr-mum-reg-1",
+    "theatreId": "th-mum-regal",
+    "name": "Main Heritage Hall",
+    "soundSystem": "Dolby Digital 7.1",
+    "projection": "4K Laser",
+    "supportedFormats": ["2D", "Dolby Atmos"],
+    "totalSeats": 84,
+    "tiers": [
+      { "tier": "PLATINUM", "label": "Dress Circle Balcony", "rows": ["A", "B"], "seatsPerRow": 10, "aisleAfterColumns": [5], "basePriceInr": 440 },
+      { "tier": "GOLD", "label": "Upper Stalls", "rows": ["C", "D", "E"], "seatsPerRow": 12, "aisleAfterColumns": [3, 9], "basePriceInr": 300 },
+      { "tier": "SILVER", "label": "Front Stalls", "rows": ["F", "G", "H"], "seatsPerRow": 10, "aisleAfterColumns": [5], "basePriceInr": 210 }
+    ]
+  },
+  {
+    "id": "scr-del-amb-1",
+    "theatreId": "th-del-ambience",
+    "name": "Audi 1 · Director's IMAX",
+    "soundSystem": "IMAX 12-Channel",
+    "projection": "Dual 4K Laser",
+    "supportedFormats": ["IMAX 2D", "Dolby Atmos", "2D"],
+    "totalSeats": 84,
+    "tiers": [
+      { "tier": "PLATINUM", "label": "Director's Recliner", "rows": ["A", "B"], "seatsPerRow": 10, "aisleAfterColumns": [5], "basePriceInr": 650 },
+      { "tier": "GOLD", "label": "Gold Prime", "rows": ["C", "D", "E"], "seatsPerRow": 12, "aisleAfterColumns": [3, 9], "basePriceInr": 430 },
+      { "tier": "SILVER", "label": "Silver Classic", "rows": ["F", "G", "H"], "seatsPerRow": 10, "aisleAfterColumns": [5], "basePriceInr": 300 }
+    ]
+  },
+  {
+    "id": "scr-del-sel-1",
+    "theatreId": "th-del-select",
+    "name": "Audi 3 · Atmos & 4DX",
+    "soundSystem": "Dolby Atmos",
+    "projection": "4K Laser",
+    "supportedFormats": ["IMAX 2D", "Dolby Atmos", "4DX", "3D", "2D"],
+    "totalSeats": 84,
+    "tiers": [
+      { "tier": "PLATINUM", "label": "Platinum Prime", "rows": ["A", "B"], "seatsPerRow": 10, "aisleAfterColumns": [5], "basePriceInr": 520 },
+      { "tier": "GOLD", "label": "Gold Center", "rows": ["C", "D", "E"], "seatsPerRow": 12, "aisleAfterColumns": [3, 9], "basePriceInr": 350 },
+      { "tier": "SILVER", "label": "Silver Front", "rows": ["F", "G", "H"], "seatsPerRow": 10, "aisleAfterColumns": [5], "basePriceInr": 240 }
+    ]
+  },
+  {
+    "id": "scr-blr-ori-1",
+    "theatreId": "th-blr-orion",
+    "name": "Audi 1 · IMAX with Laser",
+    "soundSystem": "IMAX 12-Channel",
+    "projection": "Dual 4K Laser",
+    "supportedFormats": ["IMAX 2D", "Dolby Atmos", "3D", "2D"],
+    "totalSeats": 96,
+    "tiers": [
+      { "tier": "PLATINUM", "label": "Platinum Recliner", "rows": ["A", "B"], "seatsPerRow": 10, "aisleAfterColumns": [5], "basePriceInr": 590 },
+      { "tier": "GOLD", "label": "Gold Prime", "rows": ["C", "D", "E", "F"], "seatsPerRow": 12, "aisleAfterColumns": [3, 9], "basePriceInr": 390 },
+      { "tier": "SILVER", "label": "Silver Classic", "rows": ["G", "H", "J"], "seatsPerRow": 10, "aisleAfterColumns": [5], "basePriceInr": 260 }
+    ]
+  },
+  {
+    "id": "scr-blr-phx-1",
+    "theatreId": "th-blr-phoenix",
+    "name": "Screen 2 · Cinepolis VIP",
+    "soundSystem": "Dolby Atmos",
+    "projection": "4K Digital",
+    "supportedFormats": ["Dolby Atmos", "4DX", "2D"],
+    "totalSeats": 84,
+    "tiers": [
+      { "tier": "PLATINUM", "label": "VIP Lounger", "rows": ["A", "B"], "seatsPerRow": 10, "aisleAfterColumns": [5], "basePriceInr": 490 },
+      { "tier": "GOLD", "label": "Executive Gold", "rows": ["C", "D", "E"], "seatsPerRow": 12, "aisleAfterColumns": [3, 9], "basePriceInr": 330 },
+      { "tier": "SILVER", "label": "Classic Silver", "rows": ["F", "G", "H"], "seatsPerRow": 10, "aisleAfterColumns": [5], "basePriceInr": 220 }
+    ]
+  },
+  {
+    "id": "scr-hyd-amb-1",
+    "theatreId": "th-hyd-amb",
+    "name": "Screen 1 · M-Laser Atmos",
+    "soundSystem": "Dolby Atmos",
+    "projection": "Barco 4K Laser",
+    "supportedFormats": ["IMAX 2D", "Dolby Atmos", "2D"],
+    "totalSeats": 96,
+    "tiers": [
+      { "tier": "PLATINUM", "label": "M-Lounge Recliner", "rows": ["A", "B"], "seatsPerRow": 10, "aisleAfterColumns": [5], "basePriceInr": 410 },
+      { "tier": "GOLD", "label": "Executive Gold", "rows": ["C", "D", "E", "F"], "seatsPerRow": 12, "aisleAfterColumns": [3, 9], "basePriceInr": 295 },
+      { "tier": "SILVER", "label": "Classic Silver", "rows": ["G", "H", "J"], "seatsPerRow": 10, "aisleAfterColumns": [5], "basePriceInr": 190 }
+    ]
+  },
+  {
+    "id": "scr-hyd-pra-1",
+    "theatreId": "th-hyd-prasads",
+    "name": "PCX Large-Format Screen",
+    "soundSystem": "Dolby Atmos",
+    "projection": "Dual 4K Laser",
+    "supportedFormats": ["Dolby Atmos", "4DX", "3D", "2D"],
+    "totalSeats": 84,
+    "tiers": [
+      { "tier": "PLATINUM", "label": "Platinum Upper", "rows": ["A", "B"], "seatsPerRow": 10, "aisleAfterColumns": [5], "basePriceInr": 350 },
+      { "tier": "GOLD", "label": "Gold Center", "rows": ["C", "D", "E"], "seatsPerRow": 12, "aisleAfterColumns": [3, 9], "basePriceInr": 260 },
+      { "tier": "SILVER", "label": "Silver Lower", "rows": ["F", "G", "H"], "seatsPerRow": 10, "aisleAfterColumns": [5], "basePriceInr": 180 }
+    ]
+  },
+  {
+    "id": "scr-maa-sat-1",
+    "theatreId": "th-maa-sathyam",
+    "name": "Sathyam Main · R-D-X Atmos",
+    "soundSystem": "Dolby Atmos",
+    "projection": "4K RGB Laser",
+    "supportedFormats": ["Dolby Atmos", "2D"],
+    "totalSeats": 96,
+    "tiers": [
+      { "tier": "PLATINUM", "label": "Elite Balcony", "rows": ["A", "B"], "seatsPerRow": 10, "aisleAfterColumns": [5], "basePriceInr": 240 },
+      { "tier": "GOLD", "label": "Gold Prime", "rows": ["C", "D", "E", "F"], "seatsPerRow": 12, "aisleAfterColumns": [3, 9], "basePriceInr": 190 },
+      { "tier": "SILVER", "label": "Budget Front", "rows": ["G", "H", "J"], "seatsPerRow": 10, "aisleAfterColumns": [5], "basePriceInr": 120 }
+    ]
+  },
+  {
+    "id": "scr-maa-pal-1",
+    "theatreId": "th-maa-palazzo",
+    "name": "Palazzo IMAX Screen",
+    "soundSystem": "IMAX 12-Channel",
+    "projection": "IMAX Laser",
+    "supportedFormats": ["IMAX 2D", "Dolby Atmos", "3D", "2D"],
+    "totalSeats": 84,
+    "tiers": [
+      { "tier": "PLATINUM", "label": "Platinum Prime", "rows": ["A", "B"], "seatsPerRow": 10, "aisleAfterColumns": [5], "basePriceInr": 460 },
+      { "tier": "GOLD", "label": "Gold Executive", "rows": ["C", "D", "E"], "seatsPerRow": 12, "aisleAfterColumns": [3, 9], "basePriceInr": 320 },
+      { "tier": "SILVER", "label": "Silver Classic", "rows": ["F", "G", "H"], "seatsPerRow": 10, "aisleAfterColumns": [5], "basePriceInr": 200 }
+    ]
+  },
+  {
+    "id": "scr-ccu-sou-1",
+    "theatreId": "th-ccu-southcity",
+    "name": "Audi 1 · IMAX Laser",
+    "soundSystem": "IMAX 12-Channel",
+    "projection": "Dual Laser",
+    "supportedFormats": ["IMAX 2D", "Dolby Atmos", "2D"],
+    "totalSeats": 84,
+    "tiers": [
+      { "tier": "PLATINUM", "label": "Insignia Recliner", "rows": ["A", "B"], "seatsPerRow": 10, "aisleAfterColumns": [5], "basePriceInr": 480 },
+      { "tier": "GOLD", "label": "Club Gold", "rows": ["C", "D", "E"], "seatsPerRow": 12, "aisleAfterColumns": [3, 9], "basePriceInr": 310 },
+      { "tier": "SILVER", "label": "Executive Silver", "rows": ["F", "G", "H"], "seatsPerRow": 10, "aisleAfterColumns": [5], "basePriceInr": 210 }
+    ]
+  },
+  {
+    "id": "scr-ccu-que-1",
+    "theatreId": "th-ccu-quest",
+    "name": "Audi 2 · Insignia Atmos",
+    "soundSystem": "Dolby Atmos",
+    "projection": "4K Laser",
+    "supportedFormats": ["Dolby Atmos", "4DX", "2D"],
+    "totalSeats": 84,
+    "tiers": [
+      { "tier": "PLATINUM", "label": "Insignia Prime", "rows": ["A", "B"], "seatsPerRow": 10, "aisleAfterColumns": [5], "basePriceInr": 450 },
+      { "tier": "GOLD", "label": "Gold Center", "rows": ["C", "D", "E"], "seatsPerRow": 12, "aisleAfterColumns": [3, 9], "basePriceInr": 290 },
+      { "tier": "SILVER", "label": "Silver Front", "rows": ["F", "G", "H"], "seatsPerRow": 10, "aisleAfterColumns": [5], "basePriceInr": 195 }
+    ]
+  },
+  {
+    "id": "scr-pnq-pav-1",
+    "theatreId": "th-pnq-pavilion",
+    "name": "Audi 1 · ICON Atmos",
+    "soundSystem": "Dolby Atmos",
+    "projection": "4K RGB Laser",
+    "supportedFormats": ["IMAX 2D", "Dolby Atmos", "4DX", "2D"],
+    "totalSeats": 84,
+    "tiers": [
+      { "tier": "PLATINUM", "label": "Platinum Recliner", "rows": ["A", "B"], "seatsPerRow": 10, "aisleAfterColumns": [5], "basePriceInr": 470 },
+      { "tier": "GOLD", "label": "Gold Executive", "rows": ["C", "D", "E"], "seatsPerRow": 12, "aisleAfterColumns": [3, 9], "basePriceInr": 310 },
+      { "tier": "SILVER", "label": "Silver Classic", "rows": ["F", "G", "H"], "seatsPerRow": 10, "aisleAfterColumns": [5], "basePriceInr": 220 }
+    ]
+  },
+  {
+    "id": "scr-pnq-cit-1",
+    "theatreId": "th-pnq-citypride",
+    "name": "Screen 1 · Heritage Digital",
+    "soundSystem": "Dolby 7.1",
+    "projection": "2K Laser",
+    "supportedFormats": ["2D", "Dolby Atmos"],
+    "totalSeats": 84,
+    "tiers": [
+      { "tier": "PLATINUM", "label": "Royal Balcony", "rows": ["A", "B"], "seatsPerRow": 10, "aisleAfterColumns": [5], "basePriceInr": 330 },
+      { "tier": "GOLD", "label": "Gold Prime", "rows": ["C", "D", "E"], "seatsPerRow": 12, "aisleAfterColumns": [3, 9], "basePriceInr": 250 },
+      { "tier": "SILVER", "label": "Silver Lower", "rows": ["F", "G", "H"], "seatsPerRow": 10, "aisleAfterColumns": [5], "basePriceInr": 180 }
+    ]
+  },
+  {
+    "id": "scr-amd-acr-1",
+    "theatreId": "th-amd-acropolis",
+    "name": "Audi 1 · Laser Atmos",
+    "soundSystem": "Dolby Atmos",
+    "projection": "4K Laser",
+    "supportedFormats": ["Dolby Atmos", "2D"],
+    "totalSeats": 84,
+    "tiers": [
+      { "tier": "PLATINUM", "label": "Platinum Recliner", "rows": ["A", "B"], "seatsPerRow": 10, "aisleAfterColumns": [5], "basePriceInr": 440 },
+      { "tier": "GOLD", "label": "Gold Prime", "rows": ["C", "D", "E"], "seatsPerRow": 12, "aisleAfterColumns": [3, 9], "basePriceInr": 290 },
+      { "tier": "SILVER", "label": "Silver Classic", "rows": ["F", "G", "H"], "seatsPerRow": 10, "aisleAfterColumns": [5], "basePriceInr": 200 }
+    ]
+  },
+  {
+    "id": "scr-amd-alp-1",
+    "theatreId": "th-amd-alphaone",
+    "name": "Screen 2 · IMAX & 4DX",
+    "soundSystem": "IMAX 12-Channel",
+    "projection": "IMAX Laser",
+    "supportedFormats": ["IMAX 2D", "4DX", "3D", "2D"],
+    "totalSeats": 84,
+    "tiers": [
+      { "tier": "PLATINUM", "label": "VIP Platinum", "rows": ["A", "B"], "seatsPerRow": 10, "aisleAfterColumns": [5], "basePriceInr": 480 },
+      { "tier": "GOLD", "label": "Gold Executive", "rows": ["C", "D", "E"], "seatsPerRow": 12, "aisleAfterColumns": [3, 9], "basePriceInr": 320 },
+      { "tier": "SILVER", "label": "Silver Classic", "rows": ["F", "G", "H"], "seatsPerRow": 10, "aisleAfterColumns": [5], "basePriceInr": 220 }
+    ]
+  },
+  {
+    "id": "scr-jai-raj-1",
+    "theatreId": "th-jai-rajmandir",
+    "name": "Grand Emerald Hall",
+    "soundSystem": "Dolby Atmos",
+    "projection": "4K Laser",
+    "supportedFormats": ["Dolby Atmos", "2D"],
+    "totalSeats": 96,
+    "tiers": [
+      { "tier": "PLATINUM", "label": "Diamond Balcony", "rows": ["A", "B"], "seatsPerRow": 10, "aisleAfterColumns": [5], "basePriceInr": 380 },
+      { "tier": "GOLD", "label": "Emerald Dress Circle", "rows": ["C", "D", "E", "F"], "seatsPerRow": 12, "aisleAfterColumns": [3, 9], "basePriceInr": 260 },
+      { "tier": "SILVER", "label": "Pearl Stalls", "rows": ["G", "H", "J"], "seatsPerRow": 10, "aisleAfterColumns": [5], "basePriceInr": 180 }
+    ]
+  },
+  {
+    "id": "scr-jai-gtc-1",
+    "theatreId": "th-jai-gtcentral",
+    "name": "Audi 1 · INOX Laser",
+    "soundSystem": "Dolby Atmos",
+    "projection": "4K Laser",
+    "supportedFormats": ["IMAX 2D", "Dolby Atmos", "4DX", "2D"],
+    "totalSeats": 84,
+    "tiers": [
+      { "tier": "PLATINUM", "label": "Platinum Recliner", "rows": ["A", "B"], "seatsPerRow": 10, "aisleAfterColumns": [5], "basePriceInr": 420 },
+      { "tier": "GOLD", "label": "Gold Prime", "rows": ["C", "D", "E"], "seatsPerRow": 12, "aisleAfterColumns": [3, 9], "basePriceInr": 280 },
+      { "tier": "SILVER", "label": "Silver Classic", "rows": ["F", "G", "H"], "seatsPerRow": 10, "aisleAfterColumns": [5], "basePriceInr": 190 }
+    ]
+  },
+  {
+    "id": "scr-cok-lul-1",
+    "theatreId": "th-cok-lulu",
+    "name": "Audi 1 · IMAX with Laser",
+    "soundSystem": "IMAX 12-Channel",
+    "projection": "Dual 4K Laser",
+    "supportedFormats": ["IMAX 2D", "Dolby Atmos", "4DX", "3D", "2D"],
+    "totalSeats": 96,
+    "tiers": [
+      { "tier": "PLATINUM", "label": "Platinum Lounger", "rows": ["A", "B"], "seatsPerRow": 10, "aisleAfterColumns": [5], "basePriceInr": 490 },
+      { "tier": "GOLD", "label": "Gold Prime", "rows": ["C", "D", "E", "F"], "seatsPerRow": 12, "aisleAfterColumns": [3, 9], "basePriceInr": 320 },
+      { "tier": "SILVER", "label": "Silver Classic", "rows": ["G", "H", "J"], "seatsPerRow": 10, "aisleAfterColumns": [5], "basePriceInr": 210 }
+    ]
+  },
+  {
+    "id": "scr-cok-she-1",
+    "theatreId": "th-cok-shenoys",
+    "name": "Screen 1 · Atmos Heritage",
+    "soundSystem": "Dolby Atmos",
+    "projection": "4K RGB Laser",
+    "supportedFormats": ["Dolby Atmos", "2D"],
+    "totalSeats": 84,
+    "tiers": [
+      { "tier": "PLATINUM", "label": "Executive Balcony", "rows": ["A", "B"], "seatsPerRow": 10, "aisleAfterColumns": [5], "basePriceInr": 310 },
+      { "tier": "GOLD", "label": "Gold Prime", "rows": ["C", "D", "E"], "seatsPerRow": 12, "aisleAfterColumns": [3, 9], "basePriceInr": 220 },
+      { "tier": "SILVER", "label": "Silver Stalls", "rows": ["F", "G", "H"], "seatsPerRow": 10, "aisleAfterColumns": [5], "basePriceInr": 160 }
+    ]
+  }
+]

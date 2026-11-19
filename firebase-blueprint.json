@@ -1,0 +1,286 @@
+{
+  "entities": {
+    "UserProfile": {
+      "title": "UserProfile",
+      "description": "Authenticated customer profile and city preferences isolated strictly to the owning user.",
+      "type": "object",
+      "properties": {
+        "uid": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 128,
+          "pattern": "^[a-zA-Z0-9_\\-]+$"
+        },
+        "displayName": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 80
+        },
+        "email": {
+          "type": "string",
+          "format": "email",
+          "minLength": 3,
+          "maxLength": 160
+        },
+        "phone": {
+          "type": "string",
+          "maxLength": 20
+        },
+        "preferredCityId": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 64,
+          "pattern": "^[a-zA-Z0-9_\\-]+$"
+        },
+        "preferredLanguages": {
+          "type": "array",
+          "description": "Up to 8 preferred movie languages."
+        },
+        "authProvider": {
+          "type": "string",
+          "enum": ["password", "google.com"]
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date-time"
+        }
+      },
+      "required": ["uid", "displayName", "email", "preferredCityId", "authProvider", "createdAt", "updatedAt"]
+    },
+    "Booking": {
+      "title": "Booking",
+      "description": "Server-minted movie ticket booking record owned by a user. Client SDK has read-only access.",
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 128,
+          "pattern": "^[a-zA-Z0-9_\\-]+$"
+        },
+        "userId": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 128,
+          "pattern": "^[a-zA-Z0-9_\\-]+$"
+        },
+        "showId": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 128,
+          "pattern": "^[a-zA-Z0-9_\\-]+$"
+        },
+        "movieId": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 128,
+          "pattern": "^[a-zA-Z0-9_\\-]+$"
+        },
+        "theatreId": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 128,
+          "pattern": "^[a-zA-Z0-9_\\-]+$"
+        },
+        "cityId": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 64,
+          "pattern": "^[a-zA-Z0-9_\\-]+$"
+        },
+        "seatIds": {
+          "type": "array",
+          "description": "Booked seat identifiers (max 10 per transaction)."
+        },
+        "subtotalInr": {
+          "type": "number"
+        },
+        "convenienceFeeInr": {
+          "type": "number"
+        },
+        "gstInr": {
+          "type": "number"
+        },
+        "totalInr": {
+          "type": "number"
+        },
+        "status": {
+          "type": "string",
+          "enum": ["PENDING_PAYMENT", "CONFIRMED", "CANCELLED", "EXPIRED", "REFUNDED"]
+        },
+        "paymentId": {
+          "type": "string",
+          "maxLength": 128
+        },
+        "bookingCode": {
+          "type": "string",
+          "maxLength": 32
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date-time"
+        }
+      },
+      "required": ["id", "userId", "showId", "movieId", "theatreId", "cityId", "seatIds", "totalInr", "status", "createdAt", "updatedAt"]
+    },
+    "ShowSeat": {
+      "title": "ShowSeat",
+      "description": "Server-managed seat occupancy record for a specific show. Client SDK reads availability only.",
+      "type": "object",
+      "properties": {
+        "showId": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 128,
+          "pattern": "^[a-zA-Z0-9_\\-]+$"
+        },
+        "seatId": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 16,
+          "pattern": "^[A-Z0-9_\\-]+$"
+        },
+        "status": {
+          "type": "string",
+          "enum": ["AVAILABLE", "LOCKED", "BOOKED", "BLOCKED"]
+        },
+        "tier": {
+          "type": "string",
+          "enum": ["PLATINUM", "GOLD", "SILVER"]
+        },
+        "priceInr": {
+          "type": "number"
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date-time"
+        }
+      },
+      "required": ["showId", "seatId", "status", "tier", "priceInr", "updatedAt"]
+    },
+    "SeatLock": {
+      "title": "SeatLock",
+      "description": "Time-boxed seat hold created and released exclusively by Cloud Functions.",
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 128,
+          "pattern": "^[a-zA-Z0-9_\\-]+$"
+        },
+        "userId": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 128,
+          "pattern": "^[a-zA-Z0-9_\\-]+$"
+        },
+        "showId": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 128,
+          "pattern": "^[a-zA-Z0-9_\\-]+$"
+        },
+        "seatIds": {
+          "type": "array"
+        },
+        "status": {
+          "type": "string",
+          "enum": ["ACTIVE", "CONSUMED", "RELEASED", "EXPIRED"]
+        },
+        "expiresAt": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time"
+        }
+      },
+      "required": ["id", "userId", "showId", "seatIds", "status", "expiresAt", "createdAt"]
+    },
+    "PaymentRecord": {
+      "title": "PaymentRecord",
+      "description": "Server-verified payment ledger entry tied to a booking. Client SDK has read-only access for owner.",
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 128,
+          "pattern": "^[a-zA-Z0-9_\\-]+$"
+        },
+        "userId": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 128,
+          "pattern": "^[a-zA-Z0-9_\\-]+$"
+        },
+        "bookingId": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 128,
+          "pattern": "^[a-zA-Z0-9_\\-]+$"
+        },
+        "provider": {
+          "type": "string",
+          "enum": ["RAZORPAY", "STRIPE", "UPI_INTENT"]
+        },
+        "amountInr": {
+          "type": "number"
+        },
+        "currency": {
+          "type": "string",
+          "enum": ["INR"]
+        },
+        "status": {
+          "type": "string",
+          "enum": ["INITIATED", "AUTHORIZED", "CAPTURED", "FAILED", "REFUNDED"]
+        },
+        "gatewayOrderId": {
+          "type": "string",
+          "maxLength": 128
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date-time"
+        }
+      },
+      "required": ["id", "userId", "bookingId", "provider", "amountInr", "currency", "status", "createdAt", "updatedAt"]
+    }
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": { "$ref": "#/entities/UserProfile" },
+      "description": "Customer profile and preferences document strictly owned by userId."
+    },
+    "/bookings/{bookingId}": {
+      "schema": { "$ref": "#/entities/Booking" },
+      "description": "Server-managed bookings collection; owners may read their own bookings."
+    },
+    "/showSeats/{showId}/seats/{seatId}": {
+      "schema": { "$ref": "#/entities/ShowSeat" },
+      "description": "Server-managed seat occupancy state per show; authenticated/public reads for availability without PII, writes blocked from client SDK."
+    },
+    "/seatLocks/{lockId}": {
+      "schema": { "$ref": "#/entities/SeatLock" },
+      "description": "Server-managed temporary seat holds; owners may read their own active locks, writes blocked from client SDK."
+    },
+    "/payments/{paymentId}": {
+      "schema": { "$ref": "#/entities/PaymentRecord" },
+      "description": "Server-verified payment records; owners may read their own payment records, writes blocked from client SDK."
+    }
+  }
+}

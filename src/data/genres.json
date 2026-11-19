@@ -1,0 +1,50 @@
+[
+  {
+    "id": "genre-thriller",
+    "name": "Thriller",
+    "slug": "thriller",
+    "description": "High-stakes mysteries, neo-noir investigations, and edge-of-the-seat suspense."
+  },
+  {
+    "id": "genre-drama",
+    "name": "Drama",
+    "slug": "drama",
+    "description": "Character-driven stories anchored in craft, emotion, and lived detail."
+  },
+  {
+    "id": "genre-action",
+    "name": "Action",
+    "slug": "action",
+    "description": "Precision choreography, architectural heists, and visceral big-screen spectacle."
+  },
+  {
+    "id": "genre-epic",
+    "name": "Period Epic",
+    "slug": "period-epic",
+    "description": "Sweeping historical sagas designed for large-format projection."
+  },
+  {
+    "id": "genre-scifi",
+    "name": "Sci-Fi",
+    "slug": "sci-fi",
+    "description": "Speculative cinema exploring altitude, orbit, memory, and time."
+  },
+  {
+    "id": "genre-romance",
+    "name": "Romance",
+    "slug": "romance",
+    "description": "Intimate portraits of connection, longing, and coastal stillness."
+  },
+  {
+    "id": "genre-musical",
+    "name": "Musical",
+    "slug": "musical",
+    "description": "Acoustic performance dramas powered by classical and contemporary scores."
+  },
+  {
+    "id": "genre-comedy",
+    "name": "Comedy",
+    "slug": "comedy",
+    "description": "Sharp urban satires and warm ensemble comedies."
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "name": "Marquee",
+  "description": "Production-oriented movie ticket booking platform across 10 Indian cities with local relational catalogue, interactive seat layouts, Firebase Authentication, and Firestore service abstractions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
